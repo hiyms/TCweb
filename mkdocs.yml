@@ -37,3 +37,6 @@ plugins:
 repo_url: https://github.com/hiyms/TCweb
 repo_name: hiyms/TCweb
 edit_uri: edit/master/docs/
+
+extra_css:
+  - stylesheets/extra.css
