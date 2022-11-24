@@ -1,8 +1,23 @@
-site_name: TC DOCS | TDR SERVER
+site_name: TC组织 | TDR服务器
 theme:
   name: material
+  features:
+    - header.autohide
+    - announce.dismiss
+  icon:
+    repo: fontawesome/brands/github
+    edit: material/file-document-edit
 
 extra:
   social:
     - icon: fontawesome/brands/qq
       link: https://jq.qq.com/?_wv=1027&k=AclOw9Bg
+      name: TC组织QQ群
+  generator: false
+
+plugins:
+  - tags
+
+repo_url: https://github.com/hiyms/TCweb
+repo_name: hiyms/TCweb
+edit_uri: edit/master/docs/
