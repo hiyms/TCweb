@@ -4,9 +4,24 @@ theme:
   features:
     - header.autohide
     - announce.dismiss
+    - navigation.instant
   icon:
     repo: fontawesome/brands/github
     edit: material/file-document-edit
+  language: zh
+  palette:
+    - scheme: default
+      primary: light blue
+      accent: orange
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
 
 extra:
   social:
@@ -14,6 +29,7 @@ extra:
       link: https://jq.qq.com/?_wv=1027&k=AclOw9Bg
       name: TC组织QQ群
   generator: false
+  
 
 plugins:
   - tags
