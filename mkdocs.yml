@@ -5,6 +5,11 @@ theme:
     - header.autohide
     - announce.dismiss
     - navigation.instant
+    - navigation.tabs
+    - search.highlight
+    - search.share
+    - search.suggest
+    - content.tooltips
   icon:
     repo: fontawesome/brands/github
     edit: material/file-document-edit
@@ -23,6 +28,46 @@ theme:
         icon: material/brightness-4
         name: Switch to light mode
 
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+      emoji_index: !!python/name:materialx.emoji.twemoji
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: squidfunk
+      repo: mkdocs-material
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+
 extra:
   social:
     - icon: fontawesome/brands/qq
@@ -37,6 +82,7 @@ plugins:
 repo_url: https://github.com/hiyms/TCweb
 repo_name: hiyms/TCweb
 edit_uri: edit/master/docs/
+copyright: Copyright &copy; 2021 - 2022 TC组织
 
 extra_css:
   - stylesheets/extra.css
