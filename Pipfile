@@ -8,6 +8,7 @@ mkdocs = "*"
 
 [packages]
 mkdocs-material = "*"
+pymdown-extensions = "*"
 
 
 [requires]
