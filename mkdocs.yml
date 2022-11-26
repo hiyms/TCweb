@@ -15,6 +15,9 @@ theme:
   icon:
     repo: fontawesome/brands/github
     edit: material/file-document-edit
+  font:
+    text: Roboto
+    code: Roboto Mono
   language: zh
   palette:
     - scheme: default
