@@ -12,6 +12,8 @@ theme:
     - content.tooltips
   feature:
     navigation.tabs: true
+  admonition:
+      <type>: <icon>
   icon:
     repo: fontawesome/brands/github
     edit: material/file-document-edit
