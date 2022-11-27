@@ -18,7 +18,7 @@ theme:
     repo: fontawesome/brands/github
     edit: material/file-document-edit
   font:
-    text: Roboto
+    text: Lato
     code: Roboto Mono
   language: zh
   palette:
