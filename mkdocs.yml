@@ -12,23 +12,28 @@ theme:
     - content.tooltips
   feature:
     navigation.tabs: true
+  admonition:
+      <type>: <icon>
   icon:
     repo: fontawesome/brands/github
     edit: material/file-document-edit
+  font:
+    text: Roboto
+    code: Roboto Mono
   language: zh
   palette:
     - scheme: default
       primary: light blue
       accent: orange
       toggle:
-        icon: material/brightness-7 
-        name: Switch to dark mode
+        icon: material/toggle-switch-off-outline
+        name: 开启黑夜模式
 
     # Palette toggle for dark mode
     - scheme: slate
       toggle:
-        icon: material/brightness-4
-        name: Switch to light mode
+        icon: material/toggle-switch
+        name: 关闭黑暗模式
 
 markdown_extensions:
   - abbr
