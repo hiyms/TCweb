@@ -98,6 +98,7 @@ extra_css:
 
 nav:
   - 家: ./index.md
+  - 加入我们: ./join_us.md
   - 事件:
     - 二号基地被炸事件: ./Event/20221125.md
     - 炸毁源点组织非法军事设施: ./Event/20221125_1.md
