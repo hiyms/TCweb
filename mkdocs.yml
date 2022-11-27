@@ -18,7 +18,7 @@ theme:
     repo: fontawesome/brands/github
     edit: material/file-document-edit
   font:
-    text: Lato
+    text: Noto Serif SC
     code: Roboto Mono
   language: zh
   palette:
