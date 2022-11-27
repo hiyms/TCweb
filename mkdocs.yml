@@ -19,7 +19,7 @@ theme:
     edit: material/file-document-edit
   font:
     text: Noto Serif SC
-    code: Roboto Mono
+    code: PT Mono
   language: zh
   palette:
     - scheme: default
