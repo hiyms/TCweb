@@ -10,8 +10,6 @@ theme:
     - search.share
     - search.suggest
     - content.tooltips
-  feature:
-    navigation.tabs: true
   admonition:
       <type>: <icon>
   icon:
@@ -108,3 +106,5 @@ nav:
     - 纪念碑: ./buildings/1.md
   - 文件:
     - 对stabe实施制裁的决定: ./files/20221127.md
+  - 外交:
+    - 源点组织: ./diplomacy/Source_point_organization.md
