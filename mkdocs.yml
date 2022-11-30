@@ -29,6 +29,7 @@ theme:
 
     # Palette toggle for dark mode
     - scheme: slate
+      primary: white
       toggle:
         icon: material/toggle-switch
         name: 关闭黑暗模式
