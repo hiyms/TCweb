@@ -105,8 +105,8 @@ nav:
   - 建筑:
     - 纪念碑: ./buildings/1.md
   - 文件:
-    - 对stabe实施制裁的决定: ./files/20221127.md
     - 条例:
       - TC组织基本条例: .\files\321654614.md
+    - 对stabe实施制裁的决定: ./files/20221127.md
   - 外交:
     - 源点组织: ./diplomacy/Source_point_organization.md
