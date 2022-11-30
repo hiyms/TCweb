@@ -21,7 +21,7 @@ theme:
   language: zh
   palette:
     - scheme: default
-      primary: light blue
+      primary: black
       accent: orange
       toggle:
         icon: material/toggle-switch-off-outline
