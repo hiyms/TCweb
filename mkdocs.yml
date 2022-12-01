@@ -1,6 +1,7 @@
 site_name: TC组织 | TDR服务器
 theme:
   name: material
+  custom_dir: overrides
   features:
     - header.autohide
     - announce.dismiss
@@ -21,7 +22,7 @@ theme:
   language: zh
   palette:
     - scheme: default
-      primary: black
+      primary: light blue
       accent: orange
       toggle:
         icon: material/toggle-switch-off-outline
@@ -29,7 +30,6 @@ theme:
 
     # Palette toggle for dark mode
     - scheme: slate
-      primary: white
       toggle:
         icon: material/toggle-switch
         name: 关闭黑暗模式
