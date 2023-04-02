@@ -12,3 +12,6 @@ hide:
 点击[我](join_us.md)查看教程
 
 ## 了解我们
+
+## TC SERVER计划
+点击[我](joinus_minecraftserver.md)查看有关内容
