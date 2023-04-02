@@ -1,3 +1,8 @@
+---
+hide:
+  - footer
+---
+
 # 加入我们的minecraft服务器计划（BETA）  
 
 我们正在尝试独立运营MINECRAFT JAVA服务器，这是它的测试版本，我们不保证它长期可行。  
